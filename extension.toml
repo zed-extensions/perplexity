@@ -1,6 +1,6 @@
 id = "perplexity"
 name = "Perplexity"
-version = "0.1.0"
+version = "0.2.0"
 description = "Ask questions to Perplexity AI directly from Zed"
 authors = ["Zed Industries <support@zed.dev>"]
 repository = "https://github.com/zed-extensions/perplexity"
