@@ -119,6 +119,7 @@ impl zed::Extension for Perplexity {
 }
 
 #[derive(serde::Deserialize)]
+#[allow(dead_code)]
 struct StreamEvent {
     id: String,
     model: String,
@@ -129,6 +130,7 @@ struct StreamEvent {
 }
 
 #[derive(serde::Deserialize)]
+#[allow(dead_code)]
 struct Usage {
     prompt_tokens: u32,
     completion_tokens: u32,
@@ -136,6 +138,7 @@ struct Usage {
 }
 
 #[derive(serde::Deserialize)]
+#[allow(dead_code)]
 struct Choice {
     index: u32,
     finish_reason: Option<String>,
@@ -144,12 +147,14 @@ struct Choice {
 }
 
 #[derive(serde::Deserialize)]
+#[allow(dead_code)]
 struct Message {
     role: String,
     content: String,
 }
 
 #[derive(serde::Deserialize)]
+#[allow(dead_code)]
 struct Delta {
     role: String,
     content: String,
